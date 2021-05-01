@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="SUTD-CV">
+  <meta name="generator" content="Jekyll v3.8.5">
+  <title>ICCV2021 - Workshop</title>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <!-- Custom styles -->
+  <link href="style.css" rel="stylesheet">
+
+
+  <script data-dapp-detection="">
+    ! function () {
+      let e = !1;
+
+      function n() {
+        if (!e) {
+          const n = document.createElement("meta");
+          n.name = "dapp-detected", document.head.appendChild(n), e = !0
+        }
+      }
+      if (window.hasOwnProperty("ethereum")) {
+        if (window.__disableDappDetectionInsertion = !0, void 0 === window.ethereum) return;
+        n()
+      } else {
+        var t = window.ethereum;
+        Object.defineProperty(window, "ethereum", {
+          configurable: !0,
+          enumerable: !1,
+          set: function (e) {
+            window.__disableDappDetectionInsertion || n(), t = e
+          },
+          get: function () {
+            if (!window.__disableDappDetectionInsertion) {
+              const e = arguments.callee;
+              e && e.caller && e.caller.toString && -1 !== e.caller.toString().indexOf("getOwnPropertyNames") ||
+                n()
+            }
+            return t
+          }
+        })
+      }
+    }();
+  </script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1008.0" data-gr-ext-installed="" class="vsc-initialized">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+      <div class="container">
+        <a class="navbar-brand" href="#">Multi-Modal Reasoning Workshop | ICCV 2021</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Leaderboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Dataset</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+
+
+
+
+    </nav>
+  </header>
+
+  <main role="main">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="imgs/dark-header.jpg" class="d-block w-100" alt="...">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+            <rect fill="#777" width="100%" height="100%"></rect>
+          </svg> -->
+        </div>
+
+
+        <div class="carousel-item">
+          <!-- <img src="..." class="d-block w-100" alt="..."> -->
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+            <rect fill="#777" width="100%" height="100%"></rect>
+          </svg>
+        </div>
+      </div>
+
+
+
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <h2 class="mb-5">Organizers</h2>
+
+      <div class="row">
+
+        <div class="col-lg-4">
+          <img src="imgs/jun_liu.jpg" alt="Jun Liu" class="profile-img"/>
+          <h2>Jun Liu</h2>
+          <div>
+            <p>Assistant Professor</p>
+            <p>Singapore University of Technology and Design (SUTD)</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <img src="imgs/li_xu.jpeg" alt="Li Xu" class="profile-img"/>
+          <h2>Li Xu</h2>
+          <div>
+            <p>PhD Student</p>
+            <p>Singapore University of Technology and Design (SUTD)</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <!-- <img src="imgs/hossein_rahmani.jpg" alt="Tianjiao Li" class="profile-img"/> -->
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"></rect><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>          
+          <h2>Tianjiao Li</h2>
+          <div>
+            <p>PhD Student</p>
+            <p>Singapore University of Technology and Design (SUTD)</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4">
+          <img src="imgs/qiuhong_ke.jpg" alt="Qiuhong Ke" class="profile-img"/>
+          <h2>Qiuhong Ke</h2>
+          <div>
+            <p>Assistant Professor</p>
+            <p>The University of Melbourne</p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4">
+          <img src="imgs/hossein.jpg" alt="Hossein Rahmani" class="profile-img"/>
+          <h2>Hossein Rahmani</h2>
+          <div>
+            <p>Assistant Professor</p>
+            <p>Lancaster University</p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4">
+          <img src="imgs/gang_wang.jpeg" alt="Gang Wang" class="profile-img"/>
+          <h2>Gang Wang</h2>
+          <div>
+            <p>Head of Autonomous Driving Lab</p>
+            <p>Damo Academy, Alibaba</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="imgs/wei_zhang.jpeg" alt="Wei Zhang" class="profile-img"/>
+          <h2>Wei Zhang</h2>
+          <div>
+            <p>Professor</p>
+            <p>Shandong University</p>
+          </div>
+
+      </div>
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+            role="img" aria-label="Placeholder: 500x500">
+            <title>Placeholder</title>
+            <rect fill="#eee" width="100%" height="100%"></rect><text fill="#aaa" dy=".3em" x="50%"
+              y="50%">500x500</text>
+          </svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+            role="img" aria-label="Placeholder: 500x500">
+            <title>Placeholder</title>
+            <rect fill="#eee" width="100%" height="100%"></rect><text fill="#aaa" dy=".3em" x="50%"
+              y="50%">500x500</text>
+          </svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+            role="img" aria-label="Placeholder: 500x500">
+            <title>Placeholder</title>
+            <rect fill="#eee" width="100%" height="100%"></rect><text fill="#aaa" dy=".3em" x="50%"
+              y="50%">500x500</text>
+          </svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>©2021 Multi-Modal Reasoning Workshop <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+  </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script>
+    window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')
+  </script>
+  <script src="/docs/4.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
