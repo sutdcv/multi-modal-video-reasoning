@@ -22,6 +22,16 @@ a {
   text-decoration: none !important;
 }
 
+a.name-link:hover {
+  text-decoration: none !important;
+  color: #008080 !important;
+}
+
+a.name-link {
+  text-decoration: none !important;
+  color: #505050 !important;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
