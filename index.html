@@ -73,12 +73,14 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
       <div class="container">
+        <div>
         <a class="navbar-brand" href="https://sutdcv.github.io/multi-modal-video-reasoning/">Multi-Modal Video Understanding | ICCV 2021 </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        </div>
+        <!--why do we need this button?  - LTJ -->
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        </button>
+        </button> -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -89,10 +91,18 @@
               <a class="nav-link" href="dataset.html">Dataset</a>
             </li>
 
-            <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#">Leaderboard</a>
-            </li> -->
+            <li class="nav-item tracks-drop">
+              <a class="nav-link tracks-wrap", href=''>Tracks</a>
+              <ul class="nav-link tracks-container">
+                <li><a class="nav-link" href="tracks/vqa.html">Track-1 VQA</a></li>
+                <li><a class="nav-link" href="tracks/skeleton-recognition.html">Track-2 Skeleton-based Action Recognition</a></li>
+                <li><a class="nav-link" href="tracks/fisheye-recognition.html">Track-3 Fisheye-based Action Recognition</a></li>
+              </ul>
+            </li>
 
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Leaderboard</a>
+            </li>
 
           </ul>
 

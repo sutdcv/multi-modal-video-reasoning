@@ -57,6 +57,26 @@ a.name-link {
   height: 32rem;
 }
 
+/* CUSTOMIZE THE DROPDOWN MENU FOR TRACKS
+-------------------------------------------------- */
+
+.tracks-container {
+  float: left;
+  display: none;
+  position: absolute;
+  background-color: #212529!important;
+  list-style-type: none;
+}
+
+.tracks-container li{
+  /* display: inline-block; */
+  text-align: left;
+}
+
+.tracks-drop:hover .tracks-container{
+  display: inline-block;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
