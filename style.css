@@ -77,6 +77,44 @@ a.name-link {
   display: inline-block;
 }
 
+/* CUSTOMIZE THE PAGES FOR UAV-HUMAN TRACKS
+-------------------------------------------------- */
+
+.uav-human-track-header {
+  /* display: inline-block; */
+  /* margin: auto; */
+  text-align: center;
+}
+
+.uav-human-container {
+  min-height: 500px;
+  margin: auto;
+  width: 70%;
+}
+
+.uav-human-result-tables {
+  margin: auto;
+}
+
+.uav-human-result-tables td{
+  border: 1px solid;
+  padding: 10px;
+  border-spacing: 10px;
+}
+
+.uav-human-result-tables th{
+  border: 1px solid;
+  padding: 10px;
+  border-spacing: 10px;
+}
+
+.uav-human-part-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  text-align: justify;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */

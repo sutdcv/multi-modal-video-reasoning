@@ -127,12 +127,91 @@
 
     
 
-    <div class="container marketing mt-5">
+    <div class="container marketing mt-5 uav-human-container">
+      <h3 class="uav-human-track-header">Track 3: Fisheye-based Action Recognition</h3>
+      
+      <div class="uav-human-part-container uav-human-skeleton-result">
+      <h5> - Results - </h5>
+      <table class="uav-human-result-tables">
+        <tr>
+          <th>Rank</th>
+          <th>Team Name</th>
+          <th>Team Member(s)</th>
+          <th>Classification <br> Accuracy (%)</th>
+          <th>Affiliation(s)</th>
 
+        </tr>
+        <tr>
+            <td class="uav-human-result-tables-tds">&nbsp;</td>
+            <td class="uav-human-result-tables-tds">&nbsp;</td>
+            <td class="uav-human-result-tables-tds">&nbsp;</td>
+            <td class="uav-human-result-tables-tds">&nbsp;</td>
+            <td class="uav-human-result-tables-tds">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="uav-human-result-tables-tds">&nbsp;</td>
+          <td class="uav-human-result-tables-tds">&nbsp;</td>
+          <td class="uav-human-result-tables-tds">&nbsp;</td>
+          <td class="uav-human-result-tables-tds">&nbsp;</td>
+          <td class="uav-human-result-tables-tds">&nbsp;</td>
+        </tr>
+    </table>
+    </div>
 
+    <div class="uav-human-part-container">
+      <h5> - Fisheye-based Action Recognition Challenge - </h5>
       <p>
-        Fisheye based Action Recognition Template Page, need construction
+        Fisheye-based action recognition aims to recognize action labels given videos captured by an ultra wide-angle sensor.
+        
+        which aims to recognize human behaviors given skeletal data has been attracting more and more attentions,
+        as skeletons are concise and powerful representations for human behaviors. <br>
+        However, existing works lack viewpoints from the UAV perspectives, which are important in many real-world application scenarios, such as catastrophe rescue,
+        city surveillance and wild patrol. These are some situations where humans are out of reach but monitoring and understanding humans' behaviors are highly demanded. <br>
+        UAV-Human is a recently released human behavior understanding benchmark captured by a flying UAV. The benchmark provides unique viewpoints from the UAV perspective,
+        with large variations of resolution, brightness and occlusions. Samples and details please refer to our <a href="https://arxiv.org/abs/2104.00946">CVPR2021 paper</a> 
+        and <a href="https://github.com/SUTDCV/UAV-Human">UAV-Human dataset homepage</a>.<br>
+        In this challenge, we invite researchers in this field to evaluate their skeleton-based action recognition algorithm and system on our UAV-Human dataset. The top ranking teams
+        will be invited to the ICCV2021 Workshop "Multi-Modal Video Reasoning and Analyzing Competition" to present their works.
       </p>
+    </div>
+    
+    <div class="uav-human-part-container">
+      <h5> - Registration - </h5>
+      <p>
+        All teams are required to register before the <a href="../index.html#important-dates">registration deadline</a> registration deadline by filling and submitting the 
+        <a href="#">Registration Form</a> to <a href="mailto:mmvrac.uav.human@gmail.com">mmvrac.uav.human@gmail.com</a>.
+      </p>
+    </div>
+
+    <div class="uav-human-part-container">
+      <h5> - Data Download - </h5>
+      <p>
+        <a href="#">Download link</a> for training and testing data will be available when the Challenge begins,
+        and the <a href="https://github.com/SUTDCV/UAV-Human/tree/master/uavhumanactiontools">Toolkit</a> can be found here.
+      </p>
+    </div>
+
+    <div class="uav-human-part-container">
+      <h5> - Submission - </h5>
+      <p>
+        Each team is allowed to submit <em> <b>three</b> </em> times. The submission file should be a <code>.csv</code> file, containing two columns.
+        The first column is the index number of testing data, and the second column is the predicted action categories of corresponding testing sequence.
+        The submission filename should contain: <b> 1) Team name; 2) Abbreviated algorithm name; 3) Number of submission </b>.
+        See submission example <a target="_blank" href="https://gist.githubusercontent.com/sayano-lee/e98ec0be2972ad6cbd23324021f65d43/raw/54a26c6df2b963760913c14cfaa0c9b36f05ee29/submission.csv">SUTDCV-GTI3D-2.csv</a> 
+        (<b>NOTE:</b> Headers "index" and "category" are required).
+        <br>
+        Please send your <code>.csv</code> file to <a href="mailto:mmvrac.uav.human@gmail.com">mmvrac.uav.human@gmail.com</a> within the submission period. Any submissions beyond the submission period will be ignored.
+      </p>
+    </div>
+
+    <div class="uav-human-part-container">
+      <h5> - Evaluation - </h5>
+      <p>
+        The evaluation metric is the recognition accuracy, meaning that your submitted categories are compared to the ground labels. The accuracy is computed by 
+        <code>num_correct_predictions / num_testing_samples</code>. 
+      </p>
+
+    </div>
 
     </div><!-- /.container -->
 
