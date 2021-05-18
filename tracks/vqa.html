@@ -179,10 +179,97 @@
                 </div>
             </div>
 
-            <div class="container marketing mt-5">
-                <p>Dataset coming soon!</p>
-            </div>
-            <!-- /.container -->
+            <div class="container marketing mt-5 uav-human-container">
+                <h3 class="uav-human-track-header">Track 1: Video Question Answering</h3>
+
+                <div class="uav-human-part-container uav-human-skeleton-result">
+
+                <!--
+                <h5> - Results - </h5>
+                <table class="uav-human-result-tables">
+                  <tr>
+                    <th>Rank</th>
+                    <th>Team Name</th>
+                    <th>Team Member(s)</th>
+                    <th>Classification <br> Accuracy (%)</th>
+                    <th>Affiliation(s)</th>
+
+                  </tr>
+                  <tr>
+                      <td class="uav-human-result-tables-tds">&nbsp;</td>
+                      <td class="uav-human-result-tables-tds">&nbsp;</td>
+                      <td class="uav-human-result-tables-tds">&nbsp;</td>
+                      <td class="uav-human-result-tables-tds">&nbsp;</td>
+                      <td class="uav-human-result-tables-tds">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="uav-human-result-tables-tds">&nbsp;</td>
+                    <td class="uav-human-result-tables-tds">&nbsp;</td>
+                    <td class="uav-human-result-tables-tds">&nbsp;</td>
+                    <td class="uav-human-result-tables-tds">&nbsp;</td>
+                    <td class="uav-human-result-tables-tds">&nbsp;</td>
+                  </tr>
+              </table>
+              </div>
+            -->
+
+              <div class="uav-human-part-container">
+                <h5> - Video Question Answering - </h5>
+                <p>
+                  Video question answering, which aims at answering question about the video content, has emerged as an important research topic among vision-and-language tasks, since to
+                    accurately answer the question, models need to perform spatio-temporal, logical reasoning over the video content. Such video reasoning capability lies in the core of Artifical Intelligence study. <br>
+                  However, the video reasoning capability of intelligent models is less explored in existing benchmarks for video question answering. Hence, to facilitate the research of causal, logical reasoning in videos, we introduce
+                     a new comprehensive VideoQA benchmark, SUTD-TrafficQA, which focuses on traffic-event based video reasoning. We include 6 challenging video reasoning tasks (e.g, counterfactual inference, event forecasting, introspection) with 10,080 real-world videos covering diverse traffic scenarios and 62,535 QA pairs.
+                    Samples and details please refer to our <a href="https://arxiv.org/abs/2103.15538">CVPR2021 paper</a>
+                  and <a href="https://github.com/SUTDCV/SUTD-TrafficQA">SUTD-TrafficQA dataset homepage</a>.<br>
+                  In this challenge, we invite interested researchers to evaluate their novel VideoQA models on our SUTD-TrafficQA dataset. The top ranking teams
+                  will be invited to present their works in our workshop.
+                </p>
+              </div>
+
+              <div class="uav-human-part-container">
+                <h5> - Registration - </h5>
+                <p>
+                  All teams are required to register before the <a href="../index.html#important-dates">registration deadline</a> by filling and submitting the
+                  <a href="#">Registration Form</a>.
+<!--                    to <a href="mailto:mmvrac.trafficqa@gmail.com">mmvrac.trafficqa@gmail.com</a>.-->
+                </p>
+              </div>
+
+              <div class="uav-human-part-container">
+                <h5> - Data Download - </h5>
+                <p>
+<!--                  <a href="#">Download link</a> for training and testing data will be available when the challenge begins.-->
+<!--                  and the <a href="https://github.com/SUTDCV/UAV-Human/tree/master/uavhumanactiontools">Toolkit</a> can be found here.-->
+                    When the Challenge opens and if you have registered for the participation, we will send the dataset download link to your registration email. You can use the received link to download our dataset directly
+                    without requesting for download in our dataset homepage. What's more, we provide detailed explanation and examples in our dataset homepage <a href="#">SUTD-TrafficQA</a> to show how to use our dataset, including annotation files and pre-extracted video features.
+                </p>
+              </div>
+
+              <div class="uav-human-part-container">
+                <h5> - Submission - </h5>
+                <p>
+                  Each team is allowed to submit <em> <b>three</b> </em> times. The submission file should be a <code>.csv</code> file, containing two columns.
+                    The first column is the <em> <b>record_id</b> </em> of the testing data , and the second column is the <em> <b>predicted answer index</b> </em>of corresponding testing sample.
+                  The submission filename should contain: <b> 1) Track number; 2) Team name; 3) Abbreviated model name; 4) Number of submissions </b>.
+                  See submission example <a target="_blank" href="https://github.com/SUTDCV/SUTD-TrafficQA/blob/master/submission_example.csv">Track1-SUTDCV-Eclipse-2.csv</a>
+                  (<b>NOTE:</b> Headers "record_id" and "predicted_answer" are required).
+                  <br>
+                  Please send your <code>.csv</code> file to <a href="mailto:mmvrac.trafficqa@gmail.com">mmvrac.trafficqa@gmail.com</a> within the submission period. Any submissions beyond the submission period will be ignored.
+                </p>
+              </div>
+
+              <div class="uav-human-part-container">
+                <h5> - Evaluation - </h5>
+                <p>
+                  The evaluation metric is the answering accuracy, meaning that your submitted answer predictions are compared to the ground-truth answers. The accuracy is computed by
+                  <code>num_correct_predictions / num_testing_samples</code>.
+                </p>
+
+              </div>
+
+              </div>
+              <!-- /.container -->
 
             <!-- FOOTER -->
             <footer class="container">
