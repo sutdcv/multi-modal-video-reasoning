@@ -22,11 +22,11 @@ const PageSubmission = () => {
                         </tr>
                         <tr>
                             <td>Max file size</td>
-                            <td>10 MB</td>
+                            <td><code>10 MB</code></td>
                         </tr>
                         <tr>
-                            <td>Max number of submission attempts per group per track</td>
-                            <td>5 times</td>
+                            <td>Submission attempts allowed</td>
+                            <td><code>5</code></td>
                         </tr>
                         <tr>
                             <td>Example submission for Track 1</td>
@@ -46,7 +46,7 @@ const PageSubmission = () => {
                         </tr>
                     </tbody>
                 </table>
-                <p className="mx-2">Score Computation: <code className="mx-1">score = num_correct_predictions / num_testing_samples</code></p>
+                <p className="mx-2">Score Computation: <code className="mx-1">score = number of correct predictions / number of testing samples</code></p>
             </div>
 
             <div className="container">

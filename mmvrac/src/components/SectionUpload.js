@@ -323,7 +323,7 @@ const SectionUpload = () => {
                     color="primary">
                         {submitting? <span className="spinner-grow spinner-grow-sm me-2" role="status" aria-hidden="true"></span>:null}
                         {submitting? "Submitting...":"Submit"}
-                    </Button> <span>(Submission opening on 13 June)</span>
+                    </Button> <span>(submission opening on 13 June)</span>
                 </div>
             </form>
         </div>

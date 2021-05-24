@@ -9,11 +9,11 @@ const PageDataset = () => {
                         <h1 className="display-3">
                             Datasets & Tracks
                         </h1>
-                        <p className="lead mt-3 mb-1">
-                            - Datasets access link will be sent to each participant's email address on the dataset-release date.
+                        <p className="lead mt-3 mb-1 text-white">
+                            - Datasets download link will be sent to registered participant's email address on the training-data-release date.
 
                         </p>
-                        <p className="lead">- The top team in each track will be invited to the ICCV 2021 Workshop session to present their works.</p>
+                        <p className="lead text-white">- The top teams in each track will be invited to the ICCV 2021 Workshop session to present their works.</p>
                     </div>
                 </div>
 
