@@ -62,12 +62,21 @@ const SectionSchedule = () => {
                         </div>
                     </li>
 
+                    <li className="list-group-item d-flex justify-content-between align-items-start">
+                        <div className="ms-2 me-auto">
+                            <div>10:30 - 10:50 AM</div>
+                            <div className="fw-bold">
+                                Track-4 Winner Presentation
+                            </div>
+                        </div>
+                    </li>
+
 
 
 
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
-                            <div>10:30 - 11:10 AM</div>
+                            <div>10:50 - 11:20 AM</div>
                             <div className="fw-bold">
                                 Runner-ups Presentation
                             </div>
@@ -76,7 +85,7 @@ const SectionSchedule = () => {
 
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
-                            <div>11:10 - 11:20 AM</div>
+                            <div>11:20 - 11:30 AM</div>
                             <div className="fw-bold">Closing Remarks</div>
                         </div>
                     </li>
