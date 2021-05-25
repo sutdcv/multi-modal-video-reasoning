@@ -92,18 +92,19 @@ const PageLeaderboard = () => {
                 </div>
             </div>
             <div className="my-5 container">
-                <ul className="nav nav-tabs">
+                <p className="user-select-none">* Data below updates every 60 seconds at most</p>
+                <ul className="nav nav-tabs nav-fill user-select-none">
                     <li className="nav-item">
-                        <div className={state.track1 ? "nav-link active" : "nav-link"} id="track1" onClick={handleClick}>Track 1</div>
+                        <div className={state.track1 ? "nav-link active shadow fw-bold bg-dark text-white" : "nav-link fw-bold text-secondary"} id="track1" onClick={handleClick}>Track 1</div>
                     </li>
                     <li className="nav-item">
-                        <div className={state.track2 ? "nav-link active" : "nav-link"} id="track2" onClick={handleClick}>Track 2</div>
+                        <div className={state.track2 ? "nav-link active shadow fw-bold bg-dark text-white" : "nav-link fw-bold text-secondary"} id="track2" onClick={handleClick}>Track 2</div>
                     </li>
                     <li className="nav-item">
-                        <div className={state.track3 ? "nav-link active" : "nav-link"} id="track3" onClick={handleClick}>Track 3</div>
+                        <div className={state.track3 ? "nav-link active shadow fw-bold bg-dark text-white" : "nav-link fw-bold text-secondary"} id="track3" onClick={handleClick}>Track 3</div>
                     </li>
                     <li className="nav-item">
-                        <div className={state.track4 ? "nav-link active" : "nav-link"} id="track4" onClick={handleClick}>Track 4</div>
+                        <div className={state.track4 ? "nav-link active shadow fw-bold bg-dark text-white" : "nav-link fw-bold text-secondary"} id="track4" onClick={handleClick}>Track 4</div>
                     </li>
                 </ul>
 
