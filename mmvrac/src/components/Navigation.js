@@ -10,6 +10,7 @@ import {
   import PageHome from "./PageHome"
   import PageDataset from "./PageDataset"
   import PageSubmission from "./PageSubmission"
+  import PageLeaderboard from "./PageLeaderboard"
 
 const Navigation = () => {
     const pageRoot = ""
@@ -18,12 +19,14 @@ const Navigation = () => {
         "Home": false,
         "Datasets": false,
         "Submission": false,
+        "Leaderboard": false,
     }
 
     const [activePage, setActivePage] = useState({
         "Home": true,
         "Datasets": false,
         "Submission": false,
+        "Leaderboard": false,
     })
 
     const handleNavOnClick = (e) => {
@@ -53,6 +56,9 @@ const Navigation = () => {
                         <li className="nav-item">
                             <Link className={activePage.Submission? "nav-link active" : "nav-link"} name="Submission" onClick={handleNavOnClick} to={pageRoot + "/submission"}>Submission</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className={activePage.Leaderboard? "nav-link active" : "nav-link"} name="Leaderboard" onClick={handleNavOnClick} to={pageRoot + "/leaderboard"}>Leaderboard</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -60,6 +66,7 @@ const Navigation = () => {
         <Switch>
             <Route path={pageRoot + "/datasets"} component={PageDataset} />
             <Route path={pageRoot + "/submission"} component={PageSubmission} />
+            <Route path={pageRoot + "/leaderboard"} component={PageLeaderboard} />
             <Route path={pageRoot + "/"} component={PageHome} />
         </Switch>
         </Router>
