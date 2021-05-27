@@ -92,7 +92,8 @@ const PageLeaderboard = () => {
                 </div>
             </div>
             <div className="my-5 container">
-                <p className="user-select-none">* Data below updates every 60 seconds at most</p>
+                <p className="user-select-none mb-1">* Data below updates every 60 seconds at most</p>
+                <p className="user-select-none mb-3">* The order of teams is random for now, ranking data will only be shown after 8 July 2021.</p>
                 <ul className="nav nav-tabs nav-fill user-select-none">
                     <li className="nav-item">
                         <div className={state.track1 ? "nav-link active shadow fw-bold bg-dark text-white" : "nav-link fw-bold text-secondary"} id="track1" onClick={handleClick}>Track 1</div>

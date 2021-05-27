@@ -33,14 +33,14 @@ const SectionDates = () => {
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
                             <div>25 June 2021</div>
-                            <div className="fw-bold">Submission / Evaluation Opens</div>
+                            <div className="fw-bold">Submission / Evaluation Opens and <span className="text-danger">Registration Closes</span></div>
                         </div>
                     </li>
 
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
                             <div>5 July 2021</div>
-                            <div className="fw-bold">Submission / Evaluation Closes and Registration Closes</div>
+                            <div className="fw-bold">Submission / Evaluation Closes</div>
                         </div>
                     </li>
 
