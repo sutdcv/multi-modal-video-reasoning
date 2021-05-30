@@ -93,7 +93,8 @@ const PageLeaderboard = () => {
             </div>
             <div className="my-5 container">
                 <p className="user-select-none mb-1">* Data below updates every 60 seconds at most</p>
-                <p className="user-select-none mb-3">* The order of teams is random for now, ranking data will only be shown after 8 July 2021.</p>
+                <p className="user-select-none mb-3">* The competition result and team rankings will only be reflected below after 8 July 2021.</p>
+                
                 <ul className="nav nav-tabs nav-fill user-select-none">
                     <li className="nav-item">
                         <div className={state.track1 ? "nav-link active shadow fw-bold bg-dark text-white" : "nav-link fw-bold text-secondary"} id="track1" onClick={handleClick}>Track 1</div>
@@ -110,6 +111,13 @@ const PageLeaderboard = () => {
                 </ul>
 
                 <SectionRankingTable data={rankingData[activeState]}/>
+
+                {!initialized? 
+                <div className="m-3 spinner-grow container d-flex flex-row justify-content-center">
+                    <span className="visually-hidden">Loading...</span>
+                </div> 
+                :null}
+
             </div>
             
             

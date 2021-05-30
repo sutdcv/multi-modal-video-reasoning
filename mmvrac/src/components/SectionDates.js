@@ -33,6 +33,7 @@ const SectionDates = () => {
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
                             <div>25 June 2021</div>
+                            <div className="text-muted">23:00 (UTC+8, Singapore, Beijing) or 08:00 (UTC-7, Pacific Time)</div>
                             <div className="fw-bold">Submission / Evaluation Opens and <span className="text-danger">Registration Closes</span></div>
                         </div>
                     </li>
@@ -40,6 +41,7 @@ const SectionDates = () => {
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
                             <div>5 July 2021</div>
+                            <div className="text-muted">23:00 (UTC+8, Singapore, Beijing) or 08:00 (UTC-7, Pacific Time)</div>
                             <div className="fw-bold">Submission / Evaluation Closes</div>
                         </div>
                     </li>
@@ -47,6 +49,7 @@ const SectionDates = () => {
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
                             <div>8 July 2021</div>
+                            <div className="text-muted">23:00 (UTC+8, Singapore, Beijing) or 08:00 (UTC-7, Pacific Time)</div>
                             <div className="fw-bold">Release of Results and Winners</div>
                         </div>
                     </li>
