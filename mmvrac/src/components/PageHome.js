@@ -2,8 +2,11 @@ import React from 'react'
 import SectionIntro from "./SectionIntro"
 import SectionDates from "./SectionDates"
 import SectionOrganizers from "./SectionOrganizers"
+import SectionContributors from "./SectionContributors"
 import SectionSpeakers from "./SectionSpeakers"
 import SectionSchedule from "./SectionSchedule"
+
+
 const PageHome = () => {
     return (
         <div>
@@ -21,11 +24,13 @@ const PageHome = () => {
                     <hr className="featurette-divider" />
                     <SectionDates />
                     <hr className="featurette-divider" />
-                    <SectionOrganizers />
-                    <hr className="featurette-divider" />
                     <SectionSpeakers />
                     <hr className="featurette-divider" />
                     <SectionSchedule />
+                    <hr className="featurette-divider" />
+                    <SectionOrganizers />
+                    <hr className="featurette-divider" />
+                    <SectionContributors />
                 </div>
             </main>
         </div>

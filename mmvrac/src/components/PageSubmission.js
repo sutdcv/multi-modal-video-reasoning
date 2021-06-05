@@ -42,7 +42,9 @@ const PageSubmission = () => {
                         </tr>
                         <tr>
                             <td>Example submission for Track 4</td>
-                            <td><a href="https://gist.githubusercontent.com/sayano-lee/e98ec0be2972ad6cbd23324021f65d43/raw/54a26c6df2b963760913c14cfaa0c9b36f05ee29/submission.csv" target="_blank" rel="noopener noreferrer">View</a></td>
+                            <td>
+                                {/* <a href="https://gist.githubusercontent.com/sayano-lee/e98ec0be2972ad6cbd23324021f65d43/raw/54a26c6df2b963760913c14cfaa0c9b36f05ee29/submission.csv" target="_blank" rel="noopener noreferrer">View</a> */}
+                            </td>
                         </tr>
                     </tbody>
                 </table>

@@ -278,7 +278,7 @@ const SectionUpload = () => {
                     value={state.email}
                     onChange={handleStateChange} 
                     label="Email" 
-                    helperText="Team leader or any team member's Email address"
+                    helperText="Team Leader's Email address only"
                     variant="filled" />
                 </div>
                 <div className={"mb-3"}>
