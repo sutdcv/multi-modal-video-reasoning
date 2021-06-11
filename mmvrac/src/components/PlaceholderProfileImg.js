@@ -3,14 +3,14 @@ import PropTypes from 'prop-types'
 
 const PlaceholderProfileImg = (props) => {
     return (
-        <svg 
-        className="bd-placeholder-img rounded-circle text-center" 
-        width={props.dim} 
+        <svg
+        className="bd-placeholder-img rounded-circle text-center"
+        width={props.dim}
         height={props.dim}
-        xmlns="http://www.w3.org/2000/svg" 
-        preserveAspectRatio="xMidYMid slice" 
-        focusable="false" 
-        role="img" 
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="xMidYMid slice"
+        focusable="false"
+        role="img"
         ariaLabel={"Placeholder: " + props.dim + "x" + props.dim}
         >
             <title>Placeholder</title>

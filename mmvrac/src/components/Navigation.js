@@ -70,7 +70,7 @@ const Navigation = () => {
             <Route path={pageRoot + "/"} component={PageHome} />
         </Switch>
         </Router>
-        
+
     )
 }
 

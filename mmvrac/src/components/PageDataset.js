@@ -23,8 +23,8 @@ const PageDataset = () => {
                         <p className="container">Video question answering, which aims at answering question about the video content, has emerged as an important research topic among vision-and-language tasks, since to accurately answer the question, models need to perform spatio-temporal, logical reasoning over the video content. Such video reasoning capability lies in the core of Artificial Intelligence study. However, the video reasoning capability of intelligent models is less explored in existing benchmarks for video question answering.</p>
                     </div>
                     <div className="row featurette">
-                        
-                        
+
+
                         <div className="col-md-7">
                             <h2 className="featurette-heading">SUTD-TrafficQA</h2>
                             <p className="lead">
@@ -83,8 +83,8 @@ const PageDataset = () => {
                     </div>
 
                     <div className="row featurette">
-                        
-                   
+
+
                         <div className="col-md-7 order-md-2">
                             <h2 className="featurette-heading">UAV-Human</h2>
                             <p className="lead">

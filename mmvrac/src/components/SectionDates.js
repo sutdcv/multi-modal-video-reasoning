@@ -10,7 +10,7 @@ const SectionDates = () => {
                         <div className="ms-2 me-auto">
                             <div>20 May 2021</div>
                             <div className="fw-bold">
-                                Registration for the Challenge Opens 
+                                Registration for the Challenge Opens
                                 <a className="mx-2 btn btn-sm btn-primary" href="https://sutdcv.github.io/ICCV-2021-Workshop-Registration/" type="button">Register Here</a>
                             </div>
                         </div>

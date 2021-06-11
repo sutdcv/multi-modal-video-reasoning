@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer className="mt-5 footer">
-            
+
 
             <div style={{height:70}}></div>
             <hr className="mt-auto mx-5"></hr>
@@ -17,8 +17,8 @@ const Footer = () => {
                 </div>
             </div>
 
-            
-            
+
+
         </footer>
     )
 }

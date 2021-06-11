@@ -13,6 +13,7 @@ import TextField from '@material-ui/core/TextField';
 import FeedbackModal from "./FeedbackModal"
 
 const API_ROOT = "https://dataset.markhh.com"
+// const API_ROOT = "http://127.0.0.1:8000"
 
 const customStyle = {
     width: 400
@@ -34,17 +35,17 @@ const baseStyle = {
     outline: 'none',
     transition: 'border .24s ease-in-out'
 }
-  
+
 const activeStyle = {
     borderColor: '#2196f3',
     color: '#2196f3'
 }
-  
+
 const acceptStyle = {
     borderColor: '#00e676',
     color: '#00e676'
 }
-  
+
 const rejectStyle = {
     borderColor: '#ff1744',
     color: '#ff1744'
@@ -66,13 +67,13 @@ const formatBytes = (bytes, decimals = 2) => {
 }
 
 const SectionUpload = () => {
-    
+
     /////////////////////// Submitting State (while submitting) ///////////////////////////////////////
-    
+
     const [submitting, setSubmitting] = useState(false);
     const startSubmitting = () => setSubmitting(true);
     const endSubmitting = () => setSubmitting(false);
-    
+
     /////////////////////// Feedback Modal (after submission) ///////////////////////////////////////
 
     const [showModal, setShowModal] = useState(false);
@@ -119,8 +120,8 @@ const SectionUpload = () => {
         isDragAccept,
         isDragReject
     } = useDropzone({
-        accept: "text/csv", 
-        maxFiles:1, 
+        accept: "text/csv",
+        maxFiles:1,
         maxSize: 10000000, // 10000000 bytes = 10 MB
         multiple: false,
         onDropAccepted: () => {
@@ -138,7 +139,7 @@ const SectionUpload = () => {
     isDragReject,
     isDragAccept
     ]);
-    
+
     const files = acceptedFiles.map(file => (
         <code className="badge bg-success text-wrap fs-6 my-2" key={file.path}>
           {file.path} ({formatBytes(file.size)})
@@ -196,7 +197,7 @@ const SectionUpload = () => {
             setSubmissionState(false)
             setSubmissionResponse({})
     }}
-    
+
     const handleSubmit = async (e) => {
         e.preventDefault();
 
@@ -229,14 +230,14 @@ const SectionUpload = () => {
             })
             .catch((error) => {
                 // submission failed
-                
+
                 if (error.response) {
                     console.error(error.response.data);
                     setSubmissionResponse({
                         ...error.response.data,
                         "statusCode": error.response.status,
                     })
-                    
+
                 } else {
                     setSubmissionResponse({
                         "statusCode": error.response.status,
@@ -260,32 +261,32 @@ const SectionUpload = () => {
                 Launch static backdrop modal
             </Button> */}
 
-            <FeedbackModal 
-            data={submissionResponse} 
-            success={submissionState} 
-            showModal={showModal} 
+            <FeedbackModal
+            data={submissionResponse}
+            success={submissionState}
+            showModal={showModal}
             handleCloseModal={handleCloseModal}
             callback={resetAllFormStates}
             />
             <h3 className="mb-4">Create a New Submission</h3>
             <form className={"my-3 d-flex flex-column align-items-start"}>
                 <div className={"mb-3"}>
-                    <TextField 
-                    style={customStyle} 
+                    <TextField
+                    style={customStyle}
                     required
                     error={errorState.email}
                     name="email"
                     value={state.email}
-                    onChange={handleStateChange} 
-                    label="Email" 
+                    onChange={handleStateChange}
+                    label="Email"
                     helperText="Team Leader's Email address only"
                     variant="filled" />
                 </div>
                 <div className={"mb-3"}>
-                    <FormControl 
-                    required 
+                    <FormControl
+                    required
                     error={errorState.track}
-                    style={customStyle} 
+                    style={customStyle}
                     variant="filled">
                         <InputLabel>Track</InputLabel>
                         <Select
@@ -310,16 +311,16 @@ const SectionUpload = () => {
                     </div>
                     <aside>
                         <p>{files}</p>
-                        
+
                     </aside>
                 </div>
                 <div className={"mb-3"}>
-                    <Button 
+                    <Button
                     // disabled={submitting}
                     disabled
                     style={{minWidth: "15%"}}
                     onClick={handleSubmit}
-                    variant="contained" 
+                    variant="contained"
                     color="primary">
                         {submitting? <span className="spinner-grow spinner-grow-sm me-2" role="status" aria-hidden="true"></span>:null}
                         {submitting? "Submitting...":"Submit"}

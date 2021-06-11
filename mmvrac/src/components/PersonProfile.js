@@ -18,7 +18,7 @@ const PersonProfile = (props) => {
             <h4>{props.name}</h4>
             </a>
             <div>
-                <p className="my-1">{props.title}</p>  
+                <p className="my-1">{props.title}</p>
                 <p>{props.org}</p>
             </div>
         </div>
