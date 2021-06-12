@@ -120,9 +120,10 @@ const SectionUpload = () => {
         isDragAccept,
         isDragReject
     } = useDropzone({
-        accept: "text/csv",
+        accept: ".csv,.npz",
         maxFiles:1,
-        maxSize: 10000000, // 10000000 bytes = 10 MB
+        maxSize: 300000000, // 300000000 bytes = 300 MB
+        // maxSize: 10000000, // 10000000 bytes = 10 MB
         multiple: false,
         onDropAccepted: () => {
             setErrorState((state) => {return {...state, file: false}})
@@ -207,8 +208,6 @@ const SectionUpload = () => {
             // Submit Form To Backend
             const reqURL = API_ROOT + "/iccv2021/submission?email=" + state.email + "&track=" + state.track
             const formData = new FormData();
-            // formData.append("email", state.email)
-            // formData.append("track", state.track)
             formData.append("file",acceptedFiles[0])
 
             const config = {
@@ -239,9 +238,12 @@ const SectionUpload = () => {
                     })
 
                 } else {
-                    setSubmissionResponse({
-                        "statusCode": error.response.status,
-                    })
+                    console.log(error);
+                    if (error.response.status) {
+                        setSubmissionResponse({
+                            "statusCode": error.response.status,
+                        })
+                    }
                 }
                 endSubmitting()
                 handleShowModal()
@@ -307,7 +309,7 @@ const SectionUpload = () => {
                     <div {...getRootProps({style})}>
                         <input {...getInputProps()} />
                         <p>Drop your file here or click to select file</p>
-                        <p>Only .csv file is allowed</p>
+                        <p>Only .csv or .npz file is allowed</p>
                     </div>
                     <aside>
                         <p>{files}</p>
