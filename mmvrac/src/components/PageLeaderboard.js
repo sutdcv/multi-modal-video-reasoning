@@ -5,7 +5,7 @@ import axios from "axios";
 
 import SectionRankingTable from "./SectionRankingTable"
 
-const API_ROOT = "https://dspower.markhh.com/"
+const API_ROOT = "https://dspower.markhh.com"
 // const API_ROOT = "http://127.0.0.1:8000"
 
 
