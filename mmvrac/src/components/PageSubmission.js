@@ -14,7 +14,7 @@ const PageSubmission = () => {
 
             <div className="container my-5">
                 <h3 className="">Submission Guideline</h3>
-                <h6 className="my-3 fw-bold text-muted">----- Track 1, 2, 3 -----</h6>
+                <h6 className="mt-4 mb-3 fw-bold text-muted">----- Track 1, 2, 3 -----</h6>
                 <table className="table my-3" style={{maxWidth: 400}}>
                     <tbody>
                         <tr>
@@ -43,12 +43,12 @@ const PageSubmission = () => {
                         </tr>
                     </tbody>
                 </table>
-                <ul className="">
+                <ul className="fst-italic">
                     <li className="">Score Computation: <code className="mx-1">score = number of correct predictions / number of testing samples</code></li>
                     <li className="">You will be able to see your score feedback instantly after your submission.</li>
                 </ul>
 
-                <h6 className="my-3 fw-bold text-muted">-------- Track 4 --------</h6>
+                <h6 className="mt-4 mb-3 fw-bold text-muted">-------- Track 4 --------</h6>
                 <table className="table my-3" style={{maxWidth: 400}}>
                     <tbody>
                         <tr>
@@ -72,17 +72,21 @@ const PageSubmission = () => {
 
                     </tbody>
                 </table>
-                <ul className="">
+                <ul className="fst-italic">
                     <li className="">Score Computation: <code className="mx-1">score = mean Average Precision</code></li>
                     <li className="">You will be able to see your score feedback instantly after your submission.</li>
-                    <li className="">Due to the large file size, depending on your network speed, it may take 20~50 seconds.</li>
+                    <li className="">Due to the large file size, depending on your network speed, it may take a minute to complete submission.</li>
+                    <li className="">If you could not submit via the interface below, please upload your file to Google Drive and send us the sharable link via email.</li>
                 </ul>
-                <hr className="featurette-divider" />
+                <hr className="mt-4"/>
             </div>
             
             <div className="container">
                 <SectionUpload />
-                <p>If you encounter any issue while submitting here, please send us an email.</p>
+                <ul className="fst-italic">
+                    <li className="">Please avoid last-minute submission, as the server may be busy.</li>
+                    <li className="">If you encounter any issue while submitting here, please inform us via email.</li>
+                </ul>
             </div>
         </div>
     )

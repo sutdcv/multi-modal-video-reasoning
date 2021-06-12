@@ -68,6 +68,20 @@ const formatBytes = (bytes, decimals = 2) => {
 
 const SectionUpload = () => {
 
+    /////////////////////// Timer ///////////////////////////////////////
+
+    const dateObj = new Date();
+    const windowOpen = new Date(Date.UTC(2021, 5, 25, 15, 0, 0));
+    const windowClose = new Date(Date.UTC(2021, 6, 5, 15, 0, 0));
+
+    const windowIsOpen = () => {
+        if (windowOpen <= dateObj && dateObj <= windowClose) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     /////////////////////// Submitting State (while submitting) ///////////////////////////////////////
 
     const [submitting, setSubmitting] = useState(false);
@@ -317,16 +331,35 @@ const SectionUpload = () => {
                     </aside>
                 </div>
                 <div className={"mb-3"}>
-                    <Button
-                    // disabled={submitting}
-                    disabled
-                    style={{minWidth: "15%"}}
-                    onClick={handleSubmit}
-                    variant="contained"
-                    color="primary">
-                        {submitting? <span className="spinner-grow spinner-grow-sm me-2" role="status" aria-hidden="true"></span>:null}
-                        {submitting? "Submitting...":"Submit"}
-                    </Button> <span><code>(opening on 25 June)</code></span>
+                    {
+                        windowIsOpen() ? 
+                            <Button
+                            disabled={submitting}
+                            style={{minWidth: "15%"}}
+                            onClick={handleSubmit}
+                            variant="contained"
+                            color="primary">
+                                {submitting? <span className="spinner-grow spinner-grow-sm me-2" role="status" aria-hidden="true"></span>:null}
+                                {submitting? "Submitting...":"Submit"}
+                            </Button>
+                            :
+                            <div>
+                                <Button
+                                disabled
+                                style={{minWidth: "15%"}}
+                                variant="contained"
+                                color="primary">
+                                    Submit
+                                </Button>
+                                <div className="mt-3 font-monospace">
+                                    <p className="my-1">Current Time    : {dateObj.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
+                                    <p className="my-1">Submission Open : {windowOpen.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
+                                    <p className="my-1">Submission Close: {windowClose.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
+                                </div>
+                            </div>
+                    }
+                    
+                    
                 </div>
             </form>
         </div>

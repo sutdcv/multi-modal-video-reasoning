@@ -1,6 +1,24 @@
 import React from 'react'
 
 const SectionDates = () => {
+    
+    const dateObj = new Date();
+    const options = {weekday: 'short', year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short'}
+    const date1 = new Date(Date.UTC(2021, 4, 20, 15, 0, 0));
+    const date2 = new Date(Date.UTC(2021, 5, 9, 15, 0, 0));
+    const date3 = new Date(Date.UTC(2021, 5, 13, 15, 0, 0));
+    const date4 = new Date(Date.UTC(2021, 5, 25, 15, 0, 0));
+    const date5 = new Date(Date.UTC(2021, 6, 5, 15, 0, 0));
+    const date6 = new Date(Date.UTC(2021, 6, 8, 15, 0, 0));
+
+    const registerIsOpen = () => {
+        if (date1 <= dateObj && dateObj <= date4) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     return (
         <div>
             <h1 className="mb-5">Important Dates</h1>
@@ -8,48 +26,50 @@ const SectionDates = () => {
                 <ul className="list-group px-5">
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
-                            <div>20 May 2021</div>
+                            <div className="fst-italic text-muted">{date1.toLocaleTimeString("en-GB", options)}</div>
                             <div className="fw-bold">
                                 Registration for the Challenge Opens
-                                <a className="mx-2 btn btn-sm btn-primary" href="https://sutdcv.github.io/ICCV-2021-Workshop-Registration/" type="button">Register Here</a>
+                                <a 
+                                className={"mx-2 btn btn-sm " + (registerIsOpen()?"btn-primary":"btn-secondary disabled")} 
+                                href="https://sutdcv.github.io/ICCV-2021-Workshop-Registration/" 
+                                type="button">
+                                    Register Here
+                                </a>
                             </div>
                         </div>
                     </li>
 
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
-                            <div>9 June 2021</div>
+                            <div className="fst-italic text-muted">{date2.toLocaleTimeString("en-GB", options)}</div>
                             <div className="fw-bold">Release of the Training Data</div>
                         </div>
                     </li>
 
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
-                            <div>13 June 2021</div>
+                            <div className="fst-italic text-muted">{date3.toLocaleTimeString("en-GB", options)}</div>
                             <div className="fw-bold">Release of the Testing Data</div>
                         </div>
                     </li>
 
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
-                            <div>25 June 2021</div>
-                            <div className="text-muted">23:00 (UTC+8, Singapore, Beijing) or 08:00 (UTC-7, Pacific Time)</div>
+                            <div className="fst-italic text-muted">{date4.toLocaleTimeString("en-GB", options)}</div>
                             <div className="fw-bold">Submission / Evaluation Opens and <span className="text-danger">Registration Closes</span></div>
                         </div>
                     </li>
 
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
-                            <div>5 July 2021</div>
-                            <div className="text-muted">23:00 (UTC+8, Singapore, Beijing) or 08:00 (UTC-7, Pacific Time)</div>
+                            <div className="fst-italic text-muted">{date5.toLocaleTimeString("en-GB", options)}</div>
                             <div className="fw-bold">Submission / Evaluation Closes</div>
                         </div>
                     </li>
 
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
-                            <div>8 July 2021</div>
-                            <div className="text-muted">23:00 (UTC+8, Singapore, Beijing) or 08:00 (UTC-7, Pacific Time)</div>
+                            <div className="fst-italic text-muted">{date6.toLocaleTimeString("en-GB", options)}</div>
                             <div className="fw-bold">Release of Results and Winners</div>
                         </div>
                     </li>

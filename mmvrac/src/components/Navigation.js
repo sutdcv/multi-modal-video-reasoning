@@ -15,6 +15,17 @@ import {
 const Navigation = () => {
     const pageRoot = ""
 
+    const dateObj = new Date();
+    const date1 = new Date(Date.UTC(2021, 4, 20, 15, 0, 0));
+    const date4 = new Date(Date.UTC(2021, 5, 25, 15, 0, 0));
+    const registerIsOpen = () => {
+        if (date1 <= dateObj && dateObj <= date4) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     const initialState = {
         "Home": false,
         "Datasets": false,
@@ -35,9 +46,9 @@ const Navigation = () => {
 
     return (
         <Router>
-        <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-            <div className="container-fluid">
-                <Link className={activePage.Home? "navbar-brand active" : "navbar-brand"} name="Home" onClick={handleNavOnClick} to={pageRoot + "/"}>Multi-Modal Video Understanding | ICCV 2021</Link>
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div className="container">
+                <Link className={activePage.Home? "navbar-brand active" : "navbar-brand"} name="Home" onClick={handleNavOnClick} to={pageRoot + "/"}>MMVRC | ICCV 2021</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -50,9 +61,14 @@ const Navigation = () => {
                         <li className="nav-item">
                             <Link className={activePage.Datasets? "nav-link active" : "nav-link"} name="Datasets" onClick={handleNavOnClick} to={pageRoot + "/datasets"}>Datasets & Tracks</Link>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="https://sutdcv.github.io/ICCV-2021-Workshop-Registration/">Registration</a>
-                        </li>
+                        {
+                            registerIsOpen() ? 
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://sutdcv.github.io/ICCV-2021-Workshop-Registration/">Registration</a>
+                            </li> 
+                            : null
+                        }
+                        
                         <li className="nav-item">
                             <Link className={activePage.Submission? "nav-link active" : "nav-link"} name="Submission" onClick={handleNavOnClick} to={pageRoot + "/submission"}>Submission</Link>
                         </li>
