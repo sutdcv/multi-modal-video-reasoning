@@ -352,7 +352,7 @@ const SectionUpload = () => {
                                     Submit
                                 </Button>
                                 <div className="mt-3 font-monospace">
-                                    <p className="my-1">Current Time    : {dateObj.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
+                                    <p className="my-1">Curr Local Time : {dateObj.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
                                     <p className="my-1">Submission Open : {windowOpen.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
                                     <p className="my-1">Submission Close: {windowClose.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
                                 </div>

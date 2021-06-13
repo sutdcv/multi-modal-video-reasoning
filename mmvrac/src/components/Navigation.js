@@ -48,7 +48,7 @@ const Navigation = () => {
         <Router>
         <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
             <div className="container">
-                <Link className={activePage.Home? "navbar-brand active" : "navbar-brand"} name="Home" onClick={handleNavOnClick} to={pageRoot + "/"}>MMVRC | ICCV 2021</Link>
+                <Link className={activePage.Home? "navbar-brand active" : "navbar-brand"} name="Home" onClick={handleNavOnClick} to={pageRoot + "/"}>MMVRAC | ICCV 2021</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
