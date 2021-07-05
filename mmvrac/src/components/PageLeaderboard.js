@@ -5,7 +5,7 @@ import axios from "axios";
 
 import SectionRankingTable from "./SectionRankingTable"
 
-const API_ROOT = "https://dspower.markhh.com"
+const API_ROOT = "https://cvlab.sutd.markhh.com"
 // const API_ROOT = "http://127.0.0.1:8000"
 
 
@@ -92,7 +92,7 @@ const PageLeaderboard = () => {
                 </div>
             </div>
             <div className="my-5 container">
-                <p className="user-select-none mb-1">* Data below updates every 60 seconds at most.</p>
+                {/* <p className="user-select-none mb-1">* Data below updates every 60 seconds at most.</p> */}
                 <p className="user-select-none mb-3">* The competition result and team rankings will only be reflected below after 8 July 2021.</p>
 
                 <ul className="nav nav-tabs nav-fill user-select-none">

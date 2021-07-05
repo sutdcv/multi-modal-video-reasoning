@@ -12,7 +12,7 @@ import Select from '@material-ui/core/Select';
 import TextField from '@material-ui/core/TextField';
 import FeedbackModal from "./FeedbackModal"
 
-const API_ROOT = "https://dspower.markhh.com"
+const API_ROOT = "https://cvlab.sutd.markhh.com"
 // const API_ROOT = "http://127.0.0.1:8000"
 
 const customStyle = {
@@ -352,9 +352,9 @@ const SectionUpload = () => {
                                     Submit
                                 </Button>
                                 <div className="mt-3 font-monospace">
-                                    <p className="my-1">Curr Local Time : {dateObj.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
-                                    <p className="my-1">Submission Open : {windowOpen.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
-                                    <p className="my-1">Submission Close: {windowClose.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
+                                    {/* <p className="my-1">Curr Local Time : {dateObj.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p> */}
+                                    {/* <p className="my-1">Submission Open : {windowOpen.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p> */}
+                                    <p className="my-1">Submission Closed At: {windowClose.toLocaleTimeString("en-GB", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short'})}</p>
                                 </div>
                             </div>
                     }
