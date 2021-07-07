@@ -12,7 +12,7 @@ import Select from '@material-ui/core/Select';
 import TextField from '@material-ui/core/TextField';
 import FeedbackModal from "./FeedbackModal"
 
-const API_ROOT = "https://cvlab.sutd.markhh.com"
+const API_ROOT = ""
 // const API_ROOT = "http://127.0.0.1:8000"
 
 const customStyle = {

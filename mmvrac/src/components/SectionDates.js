@@ -70,7 +70,7 @@ const SectionDates = () => {
                     <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
                             <div className="fst-italic text-muted">{date6.toLocaleTimeString("en-GB", options)}</div>
-                            <div className="fw-bold">Release of Results and Winners</div>
+                            <div className="fw-bold text-decoration-line-through">Release of Results and Winners</div>
                         </div>
                     </li>
                 </ul>
