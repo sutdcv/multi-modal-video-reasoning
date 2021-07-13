@@ -339,12 +339,6 @@ const RankingData = {
             "team_size": 4,
         },
         {
-            "team_name": "winner",
-            "leader_name": "Zhiwei Xu",
-            "team_org": "Jiangnan University",
-            "team_size": 2,
-        },
-        {
             "team_name": "Knights",
             "leader_name": "Zhan Chen",
             "team_org": "Peking University | the School of Intelligent Systems Engineering, Sun Yat-sen University",
@@ -785,12 +779,6 @@ const RankingData = {
             "team_size": 6,
         },
         {
-            "team_name": "AR",
-            "leader_name": "Bai Xiao",
-            "team_org": "BeiHang University",
-            "team_size": 1,
-        },
-        {
             "team_name": "BOE_AIOT_AIBD",
             "leader_name": "Xianbin Liu",
             "team_org": "BOE",
@@ -1075,21 +1063,33 @@ const RankingData = {
             "team_size": 4,
         },
         {
-            "team_name": "DrinkTea",
-            "leader_name": "Xiao Liang",
-            "team_org": "DOCOMO Beijing Communications Laboratories Co., Ltd.",
-            "team_size": 5,
-        },
-        {
             "team_name": "Anonym",
             "leader_name": "Yukun Huang",
             "team_org": "University of Science and Technology of China",
             "team_size": 1,
         },
         {
+            "team_name": "DrinkTea",
+            "leader_name": "Xiao Liang",
+            "team_org": "DOCOMO Beijing Communications Laboratories Co., Ltd.",
+            "team_size": 5,
+        },
+        {
+            "team_name": "Tardis",
+            "leader_name": "Mingyang Zhang",
+            "team_org": "Huazhong University of Science and Technology | AI Lab, ByteDance Inc., China |  Institute of High Performance Computing, A*STAR, Singapore",
+            "team_size": 7,
+        },
+        {
             "team_name": "TerminusBazinga",
             "leader_name": "Rui Zhang",
             "team_org": "Terminus Group",
+            "team_size": 1,
+        },
+        {
+            "team_name": "snowdark",
+            "leader_name": "Sun Yuxuan",
+            "team_org": "Northwestern Polytechnical University",
             "team_size": 1,
         },
         {
@@ -1102,18 +1102,6 @@ const RankingData = {
             "team_name": "rongrong",
             "leader_name": "siman zhang",
             "team_org": "JiuSi",
-            "team_size": 1,
-        },
-        {
-            "team_name": "Tardis",
-            "leader_name": "Mingyang Zhang",
-            "team_org": "Huazhong University of Science and Technology | AI Lab, ByteDance Inc., China |  Institute of High Performance Computing, A*STAR, Singapore",
-            "team_size": 7,
-        },
-        {
-            "team_name": "snowdark",
-            "leader_name": "Sun Yuxuan",
-            "team_org": "Northwestern Polytechnical University",
             "team_size": 1,
         },
         {
@@ -1153,14 +1141,14 @@ const RankingData = {
             "team_size": 1,
         },
         {
-            "team_name": "NoManCanControl",
-            "leader_name": "Hui Fu",
+            "team_name": "Victory",
+            "leader_name": "Fangyuan Xie",
             "team_org": "Northwestern Polytechnical University",
             "team_size": 1,
         },
         {
-            "team_name": "Victory",
-            "leader_name": "Fangyuan Xie",
+            "team_name": "NoManCanControl",
+            "leader_name": "Hui Fu",
             "team_org": "Northwestern Polytechnical University",
             "team_size": 1,
         },

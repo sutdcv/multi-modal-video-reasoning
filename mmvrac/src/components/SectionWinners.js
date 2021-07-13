@@ -13,7 +13,7 @@ const SectionWinners = props => {
 
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">1st</th>
-                        <td className="col-8">Yuhan Wang; Xinyu Liu; Ting Su; Zhicheng Guo</td>
+                        <td className="col-8">Yuhan Wang; Xinyu Liu; Ting Su; Zhicheng Guo; Licheng Jiao</td>
                         <td className="col-3">Xidian University</td>
                     </tr>
                     <tr className="d-flex">
@@ -36,7 +36,7 @@ const SectionWinners = props => {
 
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">1st</th>
-                        <td className="col-8">Cong Wu; Rongchang Li; Zhongwei Shen; Tianyang Xu; Xiao-Jun Wu; Josef Kittler; Jiwen Lu</td>
+                        <td className="col-8">Cong Wu; Zhongwei Shen; Rongchang Li; Tianyang Xu; Xiao-Jun Wu; Josef Kittler; Jiwen Lu</td>
                         <td className="col-3">Jiangnan University</td>
                     </tr>
                     <tr className="d-flex">
@@ -47,7 +47,7 @@ const SectionWinners = props => {
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">3rd</th>
                         <td className="col-8">Liang Wang; Zhang Zhang; Mingzhe Li; Yi-Fan Song</td>
-                        <td className="col-3">Chinese Academy of Sciences</td>
+                        <td className="col-3">Chinese Academy of Sciences, UCAS, BUPT</td>
                     </tr>
 
 
@@ -59,7 +59,7 @@ const SectionWinners = props => {
 
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">1st</th>
-                        <td className="col-8">Cong Wu; Rongchang Li; Zhongwei Shen; Tianyang Xu; Xiao-Jun Wu; Josef Kittler; Jiwen Lu</td>
+                        <td className="col-8">Rongchang Li; Cong Wu; Zhongwei Shen; Tianyang Xu; Xiao-Jun Wu; Josef Kittler; Jiwen Lu</td>
                         <td className="col-3">Jiangnan University</td>
                     </tr>
                     <tr className="d-flex">
@@ -69,8 +69,8 @@ const SectionWinners = props => {
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">3rd</th>
-                        <td className="col-8">Bai Xiao</td>
-                        <td className="col-3">BeiHang University</td>
+                        <td className="col-8">Xianbin Liu; Zeyu Shangguan; Zhanfu An</td>
+                        <td className="col-3">BOE Technology Group Co., Ltd</td>
                     </tr>
 
 
@@ -93,7 +93,7 @@ const SectionWinners = props => {
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">3rd</th>
-                        <td className="col-8">Ancong Wu; Chengzhi Lin; Xiao Li; Tao Lin</td>
+                        <td className="col-8">Tao Lin; Xiao Li; Chengzhi Lin; Ancong Wu</td>
                         <td className="col-3">Sun Yat-sen University</td>
                     </tr>
 

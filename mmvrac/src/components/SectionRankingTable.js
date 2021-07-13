@@ -18,7 +18,7 @@ const SectionRankingTable = (props) => {
                     {
                         props.data.map((team, index) =>
                         <tr className={"d-flex"} key={index + 1}>
-                            <th className="col-1 text-center user-select-none" scope="row">{(index + 1 <= 10)?(index + 1):"-"}</th>
+                            <th className="col-1 text-center user-select-none" scope="row">{(index + 1 <= 5)?(index + 1):"-"}</th>
                             <td className="col-3">{team.team_name}</td>
                             <td className="col-8 text-capitalize"><span className="badge rounded-pill bg-secondary user-select-none">{team.team_size}</span> | {team.team_org}</td>
                         </tr>
