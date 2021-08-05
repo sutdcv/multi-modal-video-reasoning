@@ -11,6 +11,12 @@ const SectionDates = () => {
     const date5 = new Date(Date.UTC(2021, 6, 5, 15, 0, 0));
     const date6 = new Date(Date.UTC(2021, 6, 8, 15, 0, 0));
 
+    // Workshop date
+    // UTC   11 Oct 2021, 12 PM
+    // UTC-4 11 Oct 2021, 8 AM (Montreal)
+    // UTC+8 11 Oct 2021, 8 PM (Singapore)
+    const date7 = new Date(Date.UTC(2021, 9, 11, 12, 0, 0));
+
     const registerIsOpen = () => {
         if (date1 <= dateObj && dateObj <= date4) {
             return true;
@@ -71,6 +77,13 @@ const SectionDates = () => {
                         <div className="ms-2 me-auto">
                             <div className="fst-italic text-muted">{date6.toLocaleTimeString("en-GB", options)}</div>
                             <div className="fw-bold text-decoration-line-through">Release of Results and Winners</div>
+                        </div>
+                    </li>
+
+                    <li className="list-group-item d-flex justify-content-between align-items-start">
+                        <div className="ms-2 me-auto">
+                            <div className="fst-italic text-muted">{date7.toLocaleTimeString("en-GB", options)}</div>
+                            <div className="fw-bold">Workshop Day</div>
                         </div>
                     </li>
                 </ul>
