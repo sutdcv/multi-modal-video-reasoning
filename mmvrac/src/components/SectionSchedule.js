@@ -38,13 +38,13 @@ const SectionSchedule = () => {
 
             <ul>
                 <li>
-                    <span className="fst-italic text-light badge bg-success">EDT / Montreal Time</span> <span className="fw-bold"> {date0.toLocaleTimeString("en-GB", time_montreal)} ~ {timeF.toLocaleTimeString("en-GB", time_montreal)}, {date0.toLocaleString("en-GB", options_montreal)} </span>  
+                    <span className="fw-bold">{date0.toLocaleTimeString("en-GB", time_montreal)} ~ {timeF.toLocaleTimeString("en-GB", time_montreal)}, {date0.toLocaleString("en-GB", options_montreal)}</span> <span className="ms-2 fst-italic text-light badge bg-success">EDT / Montreal Time</span>  
                 </li>
                 <li>
-                    <span className="fst-italic text-info badge bg-dark">SGT / Singapore / Beijing Time</span> <span className="fw-bold"> {date0.toLocaleTimeString("en-GB", time_singapore)} ~ {timeF.toLocaleTimeString("en-GB", time_singapore)}, {date0.toLocaleString("en-GB", options_singapore)} </span> 
+                    <span className="fw-bold">{date0.toLocaleTimeString("en-GB", time_singapore)} ~ {timeF.toLocaleTimeString("en-GB", time_singapore)}, {date0.toLocaleString("en-GB", options_singapore)}</span> <span className="ms-1 fst-italic text-info badge bg-dark">SGT / Singapore / Beijing Time</span> 
                 </li>
                 <li>
-                    <span className="fst-italic text-light badge bg-secondary">Your system's local time</span> <span className="fw-bold"> {date0.toLocaleTimeString("en-GB", time_singapore)} ~ {timeF.toLocaleTimeString("en-GB", time_singapore)}, {date0.toLocaleString("en-GB", options_local)} </span> 
+                    <span className="fw-bold">{date0.toLocaleTimeString("en-GB", time_singapore)} ~ {timeF.toLocaleTimeString("en-GB", time_singapore)}, {date0.toLocaleString("en-GB", options_local)}</span> <span className="ms-1 fst-italic text-light badge bg-secondary">Your system's local time</span> 
                 </li>
             </ul>
 
