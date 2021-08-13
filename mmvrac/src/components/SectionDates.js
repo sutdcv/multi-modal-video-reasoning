@@ -12,10 +12,10 @@ const SectionDates = () => {
     const date6 = new Date(Date.UTC(2021, 6, 8, 15, 0, 0));
 
     // Workshop date
-    // UTC   11 Oct 2021, 12 PM
-    // UTC-4 11 Oct 2021, 8 AM (Montreal)
-    // UTC+8 11 Oct 2021, 8 PM (Singapore)
-    const date7 = new Date(Date.UTC(2021, 9, 11, 12, 0, 0));
+    // UTC   11 Oct 2021, 11 PM
+    // UTC-4 11 Oct 2021, 7 AM (Montreal)
+    // UTC+8 11 Oct 2021, 7 PM (Singapore)
+    const date7 = new Date(Date.UTC(2021, 9, 11, 11, 0, 0));
 
     const registerIsOpen = () => {
         if (date1 <= dateObj && dateObj <= date4) {
