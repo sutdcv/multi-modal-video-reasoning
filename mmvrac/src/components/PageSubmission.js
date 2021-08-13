@@ -75,7 +75,7 @@ const PageSubmission = () => {
                 <ul className="fst-italic">
                     <li className="">Score Computation: <code className="mx-1">score = mean Average Precision</code></li>
                     <li className="">You will be able to see your score feedback instantly after your submission.</li>
-                    <li className="">Due to the large file size, depending on your network speed, it may take a minute to complete submission.</li>
+                    <li className="">Due to the large file size, depending on your network speed, it may take a minute to complete the submission.</li>
                     <li className="">If you could not submit via the interface below, please upload your file to Google Drive and send us the sharable link via email.</li>
                 </ul>
                 <hr className="mt-4"/>
