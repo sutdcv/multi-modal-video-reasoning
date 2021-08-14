@@ -83,7 +83,7 @@ const SectionWinners = props => {
 
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">1st</th>
-                        <td className="col-8">Shuoyi Chen; He Li; Tongxin Wang; Mang Ye; Bo Du</td>
+                        <td className="col-8">Mang Ye; Shuoyi Chen; Tongxin Wang; He Li; Bo Du</td>
                         <td className="col-3">Wuhan University</td>
                     </tr>
                     <tr className="d-flex">
