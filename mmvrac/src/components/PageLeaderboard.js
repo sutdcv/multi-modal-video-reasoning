@@ -40,6 +40,10 @@ const PageLeaderboard = () => {
             </div>
             <div className="my-5 container">
 
+                <div className="alert alert-primary">
+                    A competition-summarizing paper: <a href="https://arxiv.org/abs/2108.08344" target="_blank" rel="noopener noreferrer" className="fst-italic"><u>[The Multi-Modal Video Reasoning and Analyzing Competition]</u></a> preprint is out!
+                </div>
+
                 <p className="fw-bold fs-3 text-dark">Competition Winners</p>
 
                 <SectionWinners />
