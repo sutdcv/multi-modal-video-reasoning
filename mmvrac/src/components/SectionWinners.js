@@ -24,7 +24,7 @@ const SectionWinners = props => {
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">3rd</th>
                         <td className="col-8">Fuwei Zhang; Duo Chen; Mingjie Zhou</td>
-                        <td className="col-3">Sun Yat-Sen University</td>
+                        <td className="col-3">Sun Yat-sen University</td>
                     </tr>
 
 
@@ -41,13 +41,13 @@ const SectionWinners = props => {
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">2nd</th>
-                        <td className="col-8">Jiaxu Zhang; Jinlu Zhang; Zhisheng Huang; Yuanzhong Liu; Zhigang Tu</td>
-                        <td className="col-3">Wuhan University</td>
+                        <td className="col-8">Jiaxu Zhang; Jinlu Zhang; Zhisheng Huang; Yuanzhong Liu; Shifu Zhang; Zhigang Tu</td>
+                        <td className="col-3">Wuhan University, Shenzhen Infinova Ltd</td>
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">3rd</th>
                         <td className="col-8">Liang Wang; Zhang Zhang; Mingzhe Li; Yi-Fan Song</td>
-                        <td className="col-3">Chinese Academy of Sciences, UCAS, BUPT</td>
+                        <td className="col-3">Chinese Academy of Sciences, University of Chinese Academy of Sciences, Beijing University of Posts and Telecommunications</td>
                     </tr>
 
 
@@ -64,8 +64,8 @@ const SectionWinners = props => {
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">2nd</th>
-                        <td className="col-8">Yuanzhong Liu; Ke Li; Beiming Chang; Jinlu Zhang; Jiaxu Zhang; Zhigang Tu</td>
-                        <td className="col-3">Wuhan University</td>
+                        <td className="col-8">Yuanzhong Liu; Ke Li; Beiming Chang; Jinlu Zhang; Jiaxu Zhang; Jun Liu; Zhigang Tu</td>
+                        <td className="col-3">Wuhan University, Shenzhen Infinova Ltd</td>
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">3rd</th>

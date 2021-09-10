@@ -84,7 +84,7 @@ const PageSubmission = () => {
             <div className="container">
                 <SectionUpload />
                 <ul className="fst-italic">
-                    <li className="">Please avoid last-minute submission, as the server may be busy.</li>
+                    <li className="">Please avoid any last-minute submissions, as the server may be busy.</li>
                     <li className="">If you encounter any issue while submitting here, please inform us via email.</li>
                 </ul>
             </div>
