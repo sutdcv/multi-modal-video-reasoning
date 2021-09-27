@@ -13,18 +13,18 @@ const SectionWinners = props => {
 
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">1st</th>
-                        <td className="col-8">Yuhan Wang; Xinyu Liu; Ting Su; Zhicheng Guo; Licheng Jiao</td>
-                        <td className="col-3">Xidian University</td>
+                        <td className="col-7">Yuhan Wang; Xinyu Liu; Ting Su; Zhicheng Guo; Licheng Jiao</td>
+                        <td className="col-4">Xidian University</td>
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">2nd</th>
-                        <td className="col-8">Jiahao Wang; Wang Hao; Yifei Chen; Fang Liu</td>
-                        <td className="col-3">Xidian University</td>
+                        <td className="col-7">Jiahao Wang; Wang Hao; Yifei Chen; Fang Liu</td>
+                        <td className="col-4">Xidian University</td>
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">3rd</th>
-                        <td className="col-8">Fuwei Zhang; Duo Chen; Mingjie Zhou</td>
-                        <td className="col-3">Sun Yat-sen University</td>
+                        <td className="col-7">Fuwei Zhang; Duo Chen; Mingjie Zhou</td>
+                        <td className="col-4">Sun Yat-sen University</td>
                     </tr>
 
 
@@ -36,18 +36,18 @@ const SectionWinners = props => {
 
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">1st</th>
-                        <td className="col-8">Cong Wu; Zhongwei Shen; Rongchang Li; Tianyang Xu; Xiao-Jun Wu; Josef Kittler; Jiwen Lu</td>
-                        <td className="col-3">Jiangnan University</td>
+                        <td className="col-7">Cong Wu; Zhongwei Shen; Rongchang Li; Tianyang Xu*; Xiao-Jun Wu; Josef Kittler*; Jiwen Lu**</td>
+                        <td className="col-4">Jiangnan University, *University Of Surrey, **Tsinghua University</td>
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">2nd</th>
-                        <td className="col-8">Jiaxu Zhang; Jinlu Zhang; Zhisheng Huang; Yuanzhong Liu; Shifu Zhang; Zhigang Tu</td>
-                        <td className="col-3">Wuhan University, Shenzhen Infinova Ltd</td>
+                        <td className="col-7">Jiaxu Zhang; Jinlu Zhang; Zhisheng Huang; Yuanzhong Liu; Shifu Zhang*; Zhigang Tu</td>
+                        <td className="col-4">Wuhan University, *Shenzhen Infinova Ltd</td>
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">3rd</th>
-                        <td className="col-8">Liang Wang; Zhang Zhang; Mingzhe Li; Yi-Fan Song</td>
-                        <td className="col-3">Chinese Academy of Sciences, University of Chinese Academy of Sciences, Beijing University of Posts and Telecommunications</td>
+                        <td className="col-7">Liang Wang; Zhang Zhang*; Mingzhe Li*; Yi-Fan Song**</td>
+                        <td className="col-4">Chinese Academy of Sciences, *Beijing University of Posts and Telecommunications, **University of Chinese Academy of Sciences</td>
                     </tr>
 
 
@@ -59,18 +59,18 @@ const SectionWinners = props => {
 
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">1st</th>
-                        <td className="col-8">Rongchang Li; Cong Wu; Zhongwei Shen; Tianyang Xu; Xiao-Jun Wu; Josef Kittler; Jiwen Lu</td>
-                        <td className="col-3">Jiangnan University</td>
+                        <td className="col-7">Rongchang Li; Cong Wu; Zhongwei Shen; Tianyang Xu*; Xiao-Jun Wu; Josef Kittler*; Jiwen Lu**</td>
+                        <td className="col-4">Jiangnan University, *University Of Surrey, **Tsinghua University</td>
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">2nd</th>
-                        <td className="col-8">Yuanzhong Liu; Ke Li; Beiming Chang; Jinlu Zhang; Jiaxu Zhang; Jun Liu; Zhigang Tu</td>
-                        <td className="col-3">Wuhan University, Shenzhen Infinova Ltd</td>
+                        <td className="col-7">Yuanzhong Liu; Ke Li; Beiming Chang; Jinlu Zhang; Jiaxu Zhang; Jun Liu*; Zhigang Tu</td>
+                        <td className="col-4">Wuhan University, *Shenzhen Infinova Ltd</td>
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">3rd</th>
-                        <td className="col-8">Xianbin Liu; Zeyu Shangguan; Zhanfu An</td>
-                        <td className="col-3">BOE Technology Group Co., Ltd</td>
+                        <td className="col-7">Xianbin Liu; Zeyu Shangguan; Zhanfu An</td>
+                        <td className="col-4">BOE Technology Group Co., Ltd</td>
                     </tr>
 
 
@@ -83,18 +83,18 @@ const SectionWinners = props => {
 
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">1st</th>
-                        <td className="col-8">Mang Ye; Shuoyi Chen; Tongxin Wang; He Li; Bo Du</td>
-                        <td className="col-3">Wuhan University</td>
+                        <td className="col-7">Mang Ye; Shuoyi Chen; Tongxin Wang; He Li; Bo Du</td>
+                        <td className="col-4">Wuhan University</td>
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">2nd</th>
-                        <td className="col-8">Tao He; Leqi Shen</td>
-                        <td className="col-3">Tsinghua University</td>
+                        <td className="col-7">Tao He; Leqi Shen</td>
+                        <td className="col-4">Tsinghua University</td>
                     </tr>
                     <tr className="d-flex">
                         <th className="col-1 text-center" scope="row">3rd</th>
-                        <td className="col-8">Tao Lin; Xiao Li; Chengzhi Lin; Ancong Wu</td>
-                        <td className="col-3">Sun Yat-sen University</td>
+                        <td className="col-7">Tao Lin; Xiao Li; Chengzhi Lin; Ancong Wu</td>
+                        <td className="col-4">Sun Yat-sen University</td>
                     </tr>
 
 
