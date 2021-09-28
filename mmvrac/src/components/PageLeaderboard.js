@@ -46,9 +46,9 @@ const PageLeaderboard = () => {
 
                 <p className="fw-bold fs-3 text-dark">Competition Winners</p>
 
-                <div className="alert alert-info">
+                {/* <div className="alert alert-info">
                     View winners' certificates <a href="certs.pdf" target="_blank" rel="noopener noreferrer" className="fst-italic"><u>here</u></a>.
-                </div>
+                </div> */}
 
                 <SectionWinners />
 
