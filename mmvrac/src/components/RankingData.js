@@ -15,7 +15,7 @@ const RankingData = {
         {
             "team_name": "mote",
             "leader_name": "zhangfuwei",
-            "team_org": "Sun Yat-Sen University",
+            "team_org": "Sun Yat-sen University",
             "team_size": 3,
         },
         {
@@ -323,14 +323,14 @@ const RankingData = {
         {
             "team_name": "A Rowing Boat",
             "leader_name": "Cong Wu",
-            "team_org": "Jiangnan University",
+            "team_org": "Jiangnan University | University Of Surrey | Tsinghua University",
             "team_size": 7,
         },
         {
             "team_name": "322Win",
             "leader_name": "Jinlu Zhang",
-            "team_org": "Wuhan University",
-            "team_size": 5,
+            "team_org": "Wuhan University | Shenzhen Infinova Ltd",
+            "team_size": 6,
         },
         {
             "team_name": "CRIPAC",
@@ -769,19 +769,19 @@ const RankingData = {
         {
             "team_name": "A Rowing Boat",
             "leader_name": "Cong Wu",
-            "team_org": "Jiangnan University",
+            "team_org": "Jiangnan University | University Of Surrey | Tsinghua University",
             "team_size": 7,
         },
         {
             "team_name": "t322",
             "leader_name": "Zhiran",
-            "team_org": "Wuhan University",
-            "team_size": 6,
+            "team_org": "Wuhan University | Shenzhen Infinova Ltd",
+            "team_size": 7,
         },
         {
             "team_name": "BOE_AIOT_AIBD",
             "leader_name": "Xianbin Liu",
-            "team_org": "BOE",
+            "team_org": "BOE Technology Group Co., Ltd",
             "team_size": 3,
         },
         {
