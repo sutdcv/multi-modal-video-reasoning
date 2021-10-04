@@ -396,7 +396,7 @@ const RankingData = {
             "team_name": "小小令狐冲",
             "leader_name": "xing kai",
             "team_org": "University of Electronic Science and Technology of China",
-            "team_size": 3,
+            "team_size": 1,
         },
         {
             "team_name": "NUC",
