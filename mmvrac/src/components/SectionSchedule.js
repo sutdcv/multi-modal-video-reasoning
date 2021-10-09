@@ -31,6 +31,11 @@ const SectionSchedule = () => {
         <div>
             <h1 className="mb-3">Workshop Schedule</h1>
 
+            <div className="alert alert-info">
+                <b>Update:</b> Workshop will be hosted virtually on ZOOM: <a href="https://us06web.zoom.us/j/83221837096?pwd=V0p4aTNHQ1dnTWswZVBDb1JKemtqZz09" target="_blank" rel="noopener noreferrer" className="fst-italic"><u>Join the Zoom meeting here!</u></a>
+            </div>
+
+
             <p className="mb-3">The workshop session will be organized on (color-coded for different time zones)
                 {/* <span className="fw-bold"> {date0.toLocaleString("en-GB", options_montreal)} (Montreal Time)</span> / 
                 <span className="mx-1 fw-bold text-info badge bg-dark"> {date0.toLocaleString("en-GB", options_singapore)} (Singapore Time)</span> */}
@@ -164,13 +169,14 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-info badge bg-dark">{timeD.toLocaleTimeString("en-GB", time_singapore)} ~ {timeE.toLocaleTimeString("en-GB", time_singapore)}</span> /
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{timeD.toLocaleTimeString("en-GB", time_local)} ~ {timeE.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
-                            <div className="fw-bold">
+                            {/* <div className="fw-bold">
                                 Runner-ups Presentation
-                            </div>
+                            </div> */}
+                            <div className="fw-bold">Closing Remarks</div>
                         </div>
                     </li>
 
-                    <li className="list-group-item d-flex justify-content-between align-items-start">
+                    {/* <li className="list-group-item d-flex justify-content-between align-items-start">
                         <div className="ms-2 me-auto">
                             <div>
                                 <span className="fst-italic text-light badge bg-success">{timeE.toLocaleTimeString("en-GB", time_montreal)} ~ {timeF.toLocaleTimeString("en-GB", time_montreal)}</span> /
@@ -179,7 +185,7 @@ const SectionSchedule = () => {
                             </div>
                             <div className="fw-bold">Closing Remarks</div>
                         </div>
-                    </li>
+                    </li> */}
 
                 </ul>
             </div>

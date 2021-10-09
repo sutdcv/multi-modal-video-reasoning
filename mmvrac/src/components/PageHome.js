@@ -22,11 +22,11 @@ const PageHome = () => {
                 <div className="mt-5 container marketing">
                     <SectionIntro />
                     <hr className="featurette-divider" />
-                    <SectionDates />
-                    <hr className="featurette-divider" />
                     <SectionSpeakers />
                     <hr className="featurette-divider" />
                     <SectionSchedule />
+                    <hr className="featurette-divider" />
+                    <SectionDates />
                     <hr className="featurette-divider" />
                     <SectionOrganizers />
                     <hr className="featurette-divider" />
