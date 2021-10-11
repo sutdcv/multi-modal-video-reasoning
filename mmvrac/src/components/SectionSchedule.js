@@ -74,7 +74,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-info badge bg-dark">{date1.toLocaleTimeString("en-GB", time_singapore)} ~ {date2.toLocaleTimeString("en-GB", time_singapore)}</span> /
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{date1.toLocaleTimeString("en-GB", time_local)} ~ {date2.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
-                            <div className="fw-bold">Invited Talk 1</div>
+                            <div className="fw-bold">Invited Talk: Attention, Self-supervision, and High-order Pooling in Action Recognition (Piotr Koniusz)</div>
                         </div>
                     </li>
 
@@ -85,7 +85,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-info badge bg-dark">{date2.toLocaleTimeString("en-GB", time_singapore)} ~ {date3.toLocaleTimeString("en-GB", time_singapore)}</span> /
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{date2.toLocaleTimeString("en-GB", time_local)} ~ {date3.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
-                            <div className="fw-bold">Invited Talk 2</div>
+                            <div className="fw-bold">Invited Talk: Intelligent Action Analytics with Multi-Modality Data (Jiaying Liu)</div>
                         </div>
                     </li>
 
