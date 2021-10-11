@@ -63,7 +63,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-info badge bg-dark">{date0.toLocaleTimeString("en-GB", time_singapore)} ~ {date1.toLocaleTimeString("en-GB", time_singapore)}</span> /
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{date0.toLocaleTimeString("en-GB", time_local)} ~ {date1.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
-                            <div className="fw-bold">Welcome Session</div>
+                            <div className="fw-bold">Welcome Session <a href='https://sutdapac-my.sharepoint.com/:p:/g/personal/jun_liu_sutd_edu_sg/EQmQXpE5pqJNjOVq1yvapjsBhcWDLsDF02O-MdjxUKfKuA?e=1bBUam'>(Slides)</a></div>
                         </div>
                     </li>
 
@@ -74,7 +74,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-info badge bg-dark">{date1.toLocaleTimeString("en-GB", time_singapore)} ~ {date2.toLocaleTimeString("en-GB", time_singapore)}</span> /
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{date1.toLocaleTimeString("en-GB", time_local)} ~ {date2.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
-                            <div className="fw-bold">Invited Talk: Attention, Self-supervision, and High-order Pooling in Action Recognition (Piotr Koniusz)</div>
+                            <div className="fw-bold">Invited Talk: Attention, Self-supervision, and High-order Pooling in Action Recognition (Piotr Koniusz) <a href=''>(Slides)</a></div>
                         </div>
                     </li>
 
@@ -85,7 +85,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-info badge bg-dark">{date2.toLocaleTimeString("en-GB", time_singapore)} ~ {date3.toLocaleTimeString("en-GB", time_singapore)}</span> /
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{date2.toLocaleTimeString("en-GB", time_local)} ~ {date3.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
-                            <div className="fw-bold">Invited Talk: Intelligent Action Analytics with Multi-Modality Data (Jiaying Liu)</div>
+                            <div className="fw-bold">Invited Talk: Intelligent Action Analytics with Multi-Modality Data (Jiaying Liu) <a href='https://sutdapac-my.sharepoint.com/:v:/g/personal/jun_liu_sutd_edu_sg/EWNFLoekjcJDgCr_iMBLN0cBoqTh1RJa-YQ6iX4fxAR29w?e=sMKRUd'>(Slides)</a></div>
                         </div>
                     </li>
 
@@ -118,7 +118,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{date5.toLocaleTimeString("en-GB", time_local)} ~ {timeA.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
                             <div className="fw-bold">
-                                Track-1 Winner Presentation
+                                Track-1 Winner Presentation <a href=''>(Slides)</a>
                             </div>
                         </div>
                     </li>
@@ -131,7 +131,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{timeA.toLocaleTimeString("en-GB", time_local)} ~ {timeB.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
                             <div className="fw-bold">
-                                Track-2 Winner Presentation
+                                Track-2 Winner Presentation <a href='https://sutdapac-my.sharepoint.com/:v:/g/personal/jun_liu_sutd_edu_sg/EYL7JHl-f2FPvo95wmyoX88Bp_pn71wjgv6J4uiIZGACeA?e=UfLYPs'>(Slides)</a>
                             </div>
                         </div>
                     </li>
@@ -144,7 +144,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{timeB.toLocaleTimeString("en-GB", time_local)} ~ {timeC.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
                             <div className="fw-bold">
-                                Track-3 Winner Presentation
+                                Track-3 Winner Presentation <a href='https://sutdapac-my.sharepoint.com/:v:/g/personal/jun_liu_sutd_edu_sg/Efrnv3bSVYZChGgS2_qmQpcBPFmduDnWngCtI5soYCZeoQ?e=OMGATE'>(Slides)</a>
                             </div>
                         </div>
                     </li>
@@ -157,7 +157,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{timeC.toLocaleTimeString("en-GB", time_local)} ~ {timeD.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
                             <div className="fw-bold">
-                                Track-4 Winner Presentation
+                                Track-4 Winner Presentation <a href='https://sutdapac-my.sharepoint.com/:v:/g/personal/jun_liu_sutd_edu_sg/EYVQrFmYQINBj9BTeU6T2MABXfSUhQ8sDo6ICN6QN_NMaQ?e=ENd56f'>(Slides)</a>
                             </div>
                         </div>
                     </li>
