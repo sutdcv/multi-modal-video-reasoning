@@ -37,19 +37,19 @@ const SectionSchedule = () => {
 
 
             <p className="mb-3">The workshop session will be organized on (color-coded for different time zones)
-                {/* <span className="fw-bold"> {date0.toLocaleString("en-GB", options_montreal)} (Montreal Time)</span> / 
+                {/* <span className="fw-bold"> {date0.toLocaleString("en-GB", options_montreal)} (Montreal Time)</span> /
                 <span className="mx-1 fw-bold text-info badge bg-dark"> {date0.toLocaleString("en-GB", options_singapore)} (Singapore Time)</span> */}
             </p>
 
             <ul>
                 <li>
-                    <span className="fw-bold">{date0.toLocaleTimeString("en-GB", time_montreal)} ~ {timeF.toLocaleTimeString("en-GB", time_montreal)}, {date0.toLocaleString("en-GB", options_montreal)}</span> <span className="ms-2 fst-italic text-light badge bg-success">EDT / Montreal Time</span>  
+                    <span className="fw-bold">{date0.toLocaleTimeString("en-GB", time_montreal)} ~ {timeF.toLocaleTimeString("en-GB", time_montreal)}, {date0.toLocaleString("en-GB", options_montreal)}</span> <span className="ms-2 fst-italic text-light badge bg-success">EDT / Montreal Time</span>
                 </li>
                 <li>
-                    <span className="fw-bold">{date0.toLocaleTimeString("en-GB", time_singapore)} ~ {timeF.toLocaleTimeString("en-GB", time_singapore)}, {date0.toLocaleString("en-GB", options_singapore)}</span> <span className="ms-1 fst-italic text-info badge bg-dark">SGT / Singapore / Beijing Time</span> 
+                    <span className="fw-bold">{date0.toLocaleTimeString("en-GB", time_singapore)} ~ {timeF.toLocaleTimeString("en-GB", time_singapore)}, {date0.toLocaleString("en-GB", options_singapore)}</span> <span className="ms-1 fst-italic text-info badge bg-dark">SGT / Singapore / Beijing Time</span>
                 </li>
                 <li>
-                    <span className="fw-bold">{date0.toLocaleTimeString("en-GB", time_singapore)} ~ {timeF.toLocaleTimeString("en-GB", time_singapore)}, {date0.toLocaleString("en-GB", options_local)}</span> <span className="ms-1 fst-italic text-light badge bg-secondary">Your system's local time</span> 
+                    <span className="fw-bold">{date0.toLocaleTimeString("en-GB", time_singapore)} ~ {timeF.toLocaleTimeString("en-GB", time_singapore)}, {date0.toLocaleString("en-GB", options_local)}</span> <span className="ms-1 fst-italic text-light badge bg-secondary">Your system's local time</span>
                 </li>
             </ul>
 
@@ -74,7 +74,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-info badge bg-dark">{date1.toLocaleTimeString("en-GB", time_singapore)} ~ {date2.toLocaleTimeString("en-GB", time_singapore)}</span> /
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{date1.toLocaleTimeString("en-GB", time_local)} ~ {date2.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
-                            <div className="fw-bold">Invited Talk: Attention, Self-supervision, and High-order Pooling in Action Recognition (Piotr Koniusz) <a href=''>(Slides)</a></div>
+                            <div className="fw-bold">Invited Talk: Attention, Self-supervision, and High-order Pooling in Action Recognition (Piotr Koniusz)</div>
                         </div>
                     </li>
 
@@ -118,7 +118,7 @@ const SectionSchedule = () => {
                                 <span className="mx-1 fst-italic text-light badge bg-secondary">{date5.toLocaleTimeString("en-GB", time_local)} ~ {timeA.toLocaleTimeString("en-GB", time_local)}</span>
                             </div>
                             <div className="fw-bold">
-                                Track-1 Winner Presentation <a href=''>(Slides)</a>
+                                Track-1 Winner Presentation
                             </div>
                         </div>
                     </li>
